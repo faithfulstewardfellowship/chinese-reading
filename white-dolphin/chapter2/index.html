@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>海豚湾天使 第二章 家庭环境与同理心项目</title>
+<style>
+body{margin:0;background:#eaf7fb;font-family:"Microsoft YaHei";color:#243746}
+.slide{display:none;min-height:100vh;padding:50px}
+.slide.active{display:block}
+.page{max-width:1000px;margin:auto;background:#fff;border-radius:28px;padding:45px;box-shadow:0 8px 25px #cbdde5}
+h1,h2{color:#1769aa}
+.tag{display:inline-block;background:#dff2ee;padding:8px 15px;border-radius:20px;margin:5px}
+.card{background:#f4fbff;padding:22px;border-radius:18px;margin:20px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{border:2px dashed #b8dce8;border-radius:15px;padding:20px;min-height:120px}
+button{background:#1769aa;color:#fff;border:0;padding:12px 22px;border-radius:20px}
+.nav{position:fixed;bottom:25px;right:30px;background:white;padding:12px 18px;border-radius:25px;box-shadow:0 3px 12px #aaa}
+</style>
+<script>
+let p=0;
+function move(n){let a=document.querySelectorAll('.slide');a[p].classList.remove('active');p=n;a[p].classList.add('active');document.getElementById('page').innerHTML=(p+1)+"/9"}
+function next(){if(p<8)move(p+1)}
+function prev(){if(p>0)move(p-1)}
+</script>
+</head>
+<body>
+
+<div class="slide active"><div class="page">
+<h1>《海豚湾天使》第二章</h1>
+<h2>一个孩子看不见的世界</h2>
+<div class="tag">沟通</div><div class="tag">批判性思考</div><div class="tag">合作</div><div class="tag">创造</div><div class="tag">同理心</div>
+<div class="card">
+<b>核心问题：</b><br>
+我们如何通过故事中的线索，理解一个孩子正在经历什么？
+</div>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>项目一：家庭侦探</h2>
+<p>先观察事实，不急着判断。</p>
+<div class="grid">
+<div class="box">我看到的事实：<br><br></div>
+<div class="box">书中的证据：<br><br></div>
+</div>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>项目二：卡拉的家庭环境</h2>
+<p>仔细观察：卡拉的生活环境有什么特点？</p>
+<div class="grid">
+<div class="box">谁和卡拉生活在一起？</div>
+<div class="box">这个家庭环境有什么不同？</div>
+</div>
+<div class="card">
+这样的环境可能给一个孩子带来什么影响？
+</div>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>项目三：家庭拼图</h2>
+<p>我们知道事实，但原因需要推理。</p>
+<div class="card">
+我的推测：<br><br>
+因为书中：<br><br>
+所以我认为：
+</div>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>项目四：看见表面，也看见背后</h2>
+<div class="grid">
+<div class="box">
+别人看到的卡拉：
+</div>
+<div class="box">
+别人可能没有看到的卡拉：
+</div>
+</div>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>项目五：走进卡拉的世界</h2>
+<div class="grid">
+<div class="box">早晨醒来，我可能感觉：</div>
+<div class="box">回到家，我可能感觉：</div>
+<div class="box">遇到困难时，我希望：</div>
+<div class="box">我希望别人理解：</div>
+</div>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>项目六：不同的人，不同的故事</h2>
+<table border="1" width="100%" cellpadding="10">
+<tr><th>人物</th><th>我们看到的</th><th>可能隐藏的故事</th><th>证据</th></tr>
+<tr><td>卡拉</td><td></td><td></td><td></td></tr>
+<tr><td>贝芙姑妈</td><td></td><td></td><td></td></tr>
+<tr><td>泰德</td><td></td><td></td><td></td></tr>
+</table>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>项目七：小组讨论</h2>
+<div class="card">
+我们的观点：<br><br>
+因为书中写到：<br><br>
+所以我们认为：
+</div>
+</div></div>
+
+<div class="slide"><div class="page">
+<h2>最终项目：Mini Writing</h2>
+<div class="card">
+题目：一个孩子的成长环境如何影响他的感受和行为？
+<br><br>
+要求：
+<br>1. 提出观点
+<br>2. 使用书中证据
+<br>3. 解释你的推理
+<br>4. 表达你的理解
+</div>
+</div></div>
+
+<div class="nav">
+<button onclick="prev()">上一页</button>
+<span id="page">1/9</span>
+<button onclick="next()">下一页</button>
+</div>
+
+</body>
+</html>
