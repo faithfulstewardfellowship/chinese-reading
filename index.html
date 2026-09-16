@@ -1,0 +1,164 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>海豚湾天使 第一章 4C互动课件</title><style>
+:root{--ink:#16324f;--sea:#2a7f8e;--sand:#f5efe3;--coral:#d96c5f;--mint:#e8f5f3;--line:#c9d8dc;--ok:#dff4df;--bad:#ffe1e1}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#102634;color:#173042;overflow:hidden}
+.slide{display:none;width:100vw;height:100vh;background:linear-gradient(135deg,#fbfdfd,#edf6f5);padding:3.5vh 4.5vw}.slide.active{display:block}.slide-inner{max-width:1420px;height:100%;margin:auto;position:relative}
+.kicker{letter-spacing:.12em;color:var(--sea);font-weight:800;font-size:1rem}h1{font-size:clamp(2rem,3.8vw,4.5rem);line-height:1.05;margin:.2em 0 .45em;color:var(--ink)}h3{font-size:1.35rem}.lead{font-size:1.45rem;line-height:1.65}
+.hero-grid,.two-col{display:grid;grid-template-columns:1.05fr .95fr;gap:3vw;align-items:center}.cover-card{background:var(--ink);color:#fff;border-radius:28px;padding:44px;text-align:center}.big-num{font-size:7rem;font-weight:900}
+.pill-row{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.pill-row span,.timer-box{padding:9px 14px;border-radius:999px;background:var(--mint);font-weight:750}
+.goal-box,.question,.teacher-note,.claim,.feedback,.sentence-frame{border-radius:16px;padding:15px 18px;margin-top:16px;font-size:1.12rem;line-height:1.55}.goal-box,.claim{background:#fff0ec;border-left:6px solid var(--coral)}.question{background:#fff;border:1px solid var(--line)}.teacher-note{background:var(--mint)}.sentence-frame{background:#fff8df;border:1px dashed #c9ab4a;font-size:1.25rem}
+.source-text{background:#fffdf8;border:1px solid #d7cec0;border-radius:18px;overflow:hidden;max-height:70vh}.source-head{padding:12px 18px;background:var(--sand);font-weight:800}.source-scroll{padding:20px 24px;max-height:62vh;overflow:auto;font-family:"Songti SC","STSong","SimSun",serif;font-size:1.2rem;line-height:1.9}.source-scroll p{margin:.55em 0}
+.blank{display:inline-block;min-width:90px;padding:1px 6px;border-bottom:2px solid var(--sea);cursor:pointer;font-family:inherit}.blank.revealed{background:#fff0a8;border-radius:5px;border-bottom-color:transparent}.clickfill{display:block}
+button{font:inherit;cursor:pointer}.reveal-all,.pollbtn,.opt,.factbtn,.inferbtn{border:0;border-radius:12px;padding:11px 16px;margin:6px;background:#fff;box-shadow:0 3px 12px #14314f18}.reveal-all{background:var(--ink);color:#fff}
+.quiz-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.qcard,.card,.statement{background:#fff;padding:22px;border-radius:18px;box-shadow:0 8px 24px #14314f12}.opt{display:block;width:100%;text-align:left}.opt.correct{background:var(--ok)}.opt.wrong{background:var(--bad)}
+.roles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.roles>div{background:#fff;border-radius:16px;padding:20px;text-align:center}.flow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:25px}.flow>span{padding:10px 12px;background:#fff;border-radius:10px}
+.sort-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.statement.good,.statement.bad{outline:none}
+.factbtn.correct,.inferbtn.correct,.opt.correct{
+  background:#2f8f57!important;color:#fff!important;font-weight:800;
+  box-shadow:0 4px 14px rgba(47,143,87,.28)!important
+}
+.factbtn.wrong,.inferbtn.wrong,.opt.wrong{
+  background:#c94b4b!important;color:#fff!important;font-weight:800;
+  box-shadow:0 4px 14px rgba(201,75,75,.25)!important
+}
+.factbtn,.inferbtn,.opt{
+  transition:background .18s ease,color .18s ease,transform .12s ease,box-shadow .18s ease;
+}
+.factbtn:active,.inferbtn:active,.opt:active{transform:scale(.98)}
+.feedback{background:#fff8df;min-height:54px}
+.poll{display:flex;flex-wrap:wrap}.scale{display:flex;align-items:center;gap:14px;margin:28px 0}.line{height:8px;background:linear-gradient(90deg,#d96c5f,#f3d27d,#69af9f);flex:1;border-radius:999px}.creative-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.writing-card{background:#fff;padding:28px;border-radius:20px;font-size:1.22rem;line-height:1.7}.exit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.exit-grid>div{background:#fff;padding:20px;border-radius:18px}.num{font-size:3rem;font-weight:900;color:var(--sea)}
+.nav{position:fixed;bottom:16px;right:20px;display:flex;gap:8px;z-index:20}.nav button{border:0;background:#16324fe8;color:white;border-radius:999px;padding:10px 15px}.counter{position:fixed;bottom:20px;left:20px;background:#ffffffdd;padding:7px 12px;border-radius:999px;font-weight:800;z-index:20}
+@media(max-width:900px){.hero-grid,.two-col,.quiz-grid,.roles,.sort-grid,.creative-grid,.exit-grid{grid-template-columns:1fr}.slide{overflow:auto}.slide-inner{height:auto;padding-bottom:70px}.source-text{max-height:46vh}.source-scroll{max-height:39vh;font-size:1.02rem}}
+</style></head><body><section class="slide title-slide"><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>今天我们要做什么？</h1>
+<div class="hero-grid">
+<div>
+<p class="lead">不是“做完一张练习卷”，而是边读、边说、边找证据、边完成 handout。</p>
+<div class="pill-row"><span>Communication</span><span>Critical Thinking</span><span>Collaboration</span><span>Creativity</span></div>
+<div class="goal-box"><b>Driving Question：</b>卡拉为什么会突然失控？我们能不能理解她，同时又不同意她的做法？</div>
+</div>
+<div class="cover-card"><div class="big-num">4C</div><div>Read · Think · Talk · Write</div><small>课堂完成 Student Handout</small></div>
+</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Warm-up · 先说，不急着写</h1>
+<div class="discussion">
+<h3>Think → Pair → Share</h3>
+<p class="lead">如果有人一直拿你最在意的家人开玩笑，你可能会有什么感受？</p>
+<div class="timer-box">个人想 30 秒 → 两人交流 1 分钟 → 全组分享</div>
+<div class="teacher-note">这一页不写 handout。目标是让孩子先进入情境，练习口头表达与倾听。</div>
+</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Controlled Practice 1 · 动作词</h1>
+<div class="two-col">
+<div class="source-text"><div class="source-head"><span>原书第3页节选</span></div>
+<div class="source-scroll">
+<p>我从书上又<span class="blank" data-answer="撕下">______</span>一页纸。</p>
+<p>我把它直接<span class="blank" data-answer="扯了下来">______</span>。</p>
+<p>我<span class="blank" data-answer="松开手">______</span>，看着它向上飘。</p>
+<p>我<span class="blank" data-answer="低头往下看">______</span>。杰克正仰着脸看着我。</p>
+</div></div>
+<div>
+<h3>Student Handout · Part A</h3>
+<p>孩子先自己填。请一位孩子说一个答案，你再点击空格显示。</p>
+<div class="question"><b>追问：</b>这些具体动作词比反复用“弄”“做”好在哪里？</div>
+<button class="reveal-all">显示本页全部答案</button>
+</div>
+</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Controlled Practice 2 · 词语放回语境</h1>
+<div class="quiz-grid">
+<div class="qcard"><p>“粗糙的皮革封面”中的“粗糙”最接近：</p>
+<button class="opt" data-correct="false">A. 很厚</button><button class="opt" data-correct="true">B. 表面不光滑</button><button class="opt" data-correct="false">C. 很旧</button></div>
+<div class="qcard"><p>“我气呼呼地瞪着他”主要表现：</p>
+<button class="opt" data-correct="true">A. 强烈愤怒</button><button class="opt" data-correct="false">B. 紧张害怕</button><button class="opt" data-correct="false">C. 无所谓</button></div>
+<div class="qcard"><p>“狠狠地砸在杰克的鼻梁上”中“狠狠”比“用力”多了什么？</p>
+<button class="opt" data-correct="true">A. 情绪色彩</button><button class="opt" data-correct="false">B. 时间长短</button><button class="opt" data-correct="false">C. 地点信息</button></div>
+</div>
+<div class="teacher-note">Handout Part B 同步完成。点击选项会即时显示对/错。</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Guided Discovery · 她真的“不在乎”吗？</h1>
+<div class="two-col">
+<div class="source-text"><div class="source-head"><span>原书第5页节选</span></div>
+<div class="source-scroll">
+<p>眼泪涌了上来，我的眼睛火辣辣的。</p>
+<p>我使劲眨了眨眼睛，转身看着大海。</p>
+<p>我绝对不能哭，不能让他们看见我的眼泪。</p>
+</div></div>
+<div>
+<div class="claim">判断：卡拉已经被杰克的话深深刺痛，但她不想让别人看见自己的脆弱。</div>
+<p><b>小组任务：</b>找两条 evidence：一条来自身体反应，一条来自内心想法。</p>
+<div class="answer-box"><span class="blank clickfill" data-answer="身体反应：眼泪涌了上来，眼睛火辣辣的。">证据1：点击显示</span></div>
+<div class="answer-box"><span class="blank clickfill" data-answer="内心想法：我绝对不能哭，不能让他们看见我的眼泪。">证据2：点击显示</span></div>
+</div></div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Collaboration · Evidence Hunt</h1>
+<div class="group-task">
+<h3>每组 3 人，分工完成</h3>
+<div class="roles"><div><b>Reader</b><br>负责找原文</div><div><b>Evidence Keeper</b><br>负责说页码和证据</div><div><b>Reasoner</b><br>负责解释“这说明什么”</div></div>
+<p class="lead">问题：<b>卡拉的情绪是怎样一步一步升级的？</b></p>
+<div class="flow"><span>被取笑名字</span><b>→</b><span class="blank" data-answer="提到爸爸">______</span><b>→</b><span class="blank" data-answer="提到妈妈">______</span><b>→</b><span class="blank" data-answer="爸爸可能失业/家里没钱">______</span><b>→</b><span class="blank" data-answer="“莫娜要卖掉了”">______</span></div>
+<button class="reveal-all">显示本页全部答案</button>
+</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Critical Thinking · Fact or Inference?</h1>
+<div class="sort-grid">
+<div class="statement" data-answer="fact"><p>“卡拉转身看着大海。”</p><button class="factbtn">Fact</button><button class="inferbtn">Inference</button></div>
+<div class="statement" data-answer="inference"><p>“卡拉非常想念妈妈。”</p><button class="factbtn">Fact</button><button class="inferbtn">Inference</button></div>
+<div class="statement" data-answer="inference"><p>“杰克故意想让卡拉难受。”</p><button class="factbtn">Fact</button><button class="inferbtn">Inference</button></div>
+<div class="statement" data-answer="fact"><p>“卡拉把书扔向杰克。”</p><button class="factbtn">Fact</button><button class="inferbtn">Inference</button></div>
+</div>
+<div class="question">小组追问：Inference 不是“瞎猜”。它必须有什么？ <span class="blank" data-answer="文本证据">______</span></div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Controlled Practice 3 · 找“最后一根稻草”</h1>
+<div class="two-col">
+<div class="source-text"><div class="source-head"><span>原书第6–7页节选</span></div>
+<div class="source-scroll">
+<p>“莫娜要卖掉了。”杰克喊了出来，一副兴高采烈的样子。</p>
+<p>我噌的一下站了起来：“你撒谎！”</p>
+<p>我把书用力朝他扔过去。</p>
+</div></div>
+<div>
+<p class="lead">哪一句最可能是卡拉情绪爆发的“最后一根稻草”？</p>
+<div class="poll">
+<button class="pollbtn" data-msg="可以。请继续回答：为什么这句话特别刺痛她？">“莫娜要卖掉了。”</button>
+<button class="pollbtn" data-msg="也可能。请用前文证据证明妈妈的话题对她的影响更大。">关于妈妈的话</button>
+<button class="pollbtn" data-msg="可以讨论，但请说明为什么这比前两类信息更关键。">关于爸爸失业的话</button>
+</div>
+<div id="pollmsg" class="feedback"></div>
+<div class="teacher-note">这里不追求唯一答案；评价标准是“证据 + 解释”。</div>
+</div></div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Communication · Agree / Disagree Line</h1>
+<div class="discussion">
+<h3>观点线讨论</h3>
+<p class="lead">“卡拉动手虽然不对，但完全可以理解。”</p>
+<div class="scale"><span>强烈不同意</span><div class="line"></div><span>强烈同意</span></div>
+<p>每个孩子选择位置后，必须完成句式：</p>
+<div class="sentence-frame">我选择 ______，因为原文第 ____ 页写到 ______。这说明 ______。</div>
+<div class="teacher-note">要求先复述上一位同学的观点，再补充或反驳：<b>“我同意/不同意___的一点，因为……”</b></div>
+</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Creativity + Collaboration · 给卡拉一个“暂停键”</h1>
+<div class="creative-grid">
+<div class="card"><h3>任务</h3><p>如果故事在卡拉扔书前暂停 10 秒，你们小组可以给她一个更好的选择吗？</p></div>
+<div class="card"><h3>限制</h3><p>必须既能表达愤怒，又不能伤害别人；还要符合卡拉当时的性格。</p></div>
+<div class="card"><h3>输出</h3><p>设计一句卡拉可以说的话 + 一个她可以做的动作。</p></div>
+</div>
+<div class="sentence-frame">卡拉可以说：“________________。” 她可以 __________________。</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Mini Writing · 独立输出</h1>
+<div class="writing-card">
+<h3>100–150字：我理解卡拉，但我是否赞同她的做法？</h3>
+<p>1. <b>观点：</b>我认为……</p>
+<p>2. <b>证据：</b>原书第 ___ 页写到/表现出……</p>
+<p>3. <b>解释：</b>这说明……</p>
+<p>4. <b>进一步判断：</b>但是……如果是我，我会……</p>
+</div>
+<div class="teacher-note">这是 freer practice：不再给选项，但沿用前面反复练过的“观点—证据—解释”框架。</div></div></section><section class="slide "><div class="slide-inner"><div class="kicker">《海豚湾天使》 · 第一章 · 4C课堂</div><h1>Exit Ticket · 4C自我检查</h1>
+<div class="exit-grid">
+<div><div class="num">C</div><p>Communication：我今天清楚表达了一个观点吗？</p></div>
+<div><div class="num">C</div><p>Critical Thinking：我用 evidence 支持判断了吗？</p></div>
+<div><div class="num">C</div><p>Collaboration：我回应过同伴的观点吗？</p></div>
+<div><div class="num">C</div><p>Creativity：我提出过不止一种解决办法吗？</p></div>
+</div></div></section><div class="counter"></div><div class="nav"><button id="prev">← 上一页</button><button id="next">下一页 →</button></div><script>
+let idx=0; const slides=[...document.querySelectorAll('.slide')]; const counter=document.querySelector('.counter');
+function show(i){idx=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,j)=>s.classList.toggle('active',j===idx));counter.textContent=`${idx+1} / ${slides.length}`;}
+document.querySelector('#prev').onclick=()=>show(idx-1);document.querySelector('#next').onclick=()=>show(idx+1);
+document.addEventListener('keydown',e=>{if(['ArrowRight',' ','PageDown'].includes(e.key))show(idx+1);if(['ArrowLeft','PageUp'].includes(e.key))show(idx-1)});
+document.querySelectorAll('.blank').forEach(el=>el.addEventListener('click',()=>{el.textContent=el.dataset.answer;el.classList.add('revealed')}));
+document.querySelectorAll('.reveal-all').forEach(btn=>btn.addEventListener('click',()=>{btn.closest('.slide').querySelectorAll('.blank').forEach(el=>{el.textContent=el.dataset.answer;el.classList.add('revealed')})}));
+document.querySelectorAll('.opt').forEach(btn=>btn.addEventListener('click',()=>{
+  const card=btn.closest('.qcard');
+  card.querySelectorAll('.opt').forEach(b=>b.classList.remove('correct','wrong'));
+  btn.classList.add(btn.dataset.correct==='true'?'correct':'wrong');
+}));
+document.querySelectorAll('.statement').forEach(st=>{
+  const fact=st.querySelector('.factbtn'), inf=st.querySelector('.inferbtn');
+  const choose=(btn,choice)=>{
+    [fact,inf].forEach(b=>b.classList.remove('correct','wrong'));
+    btn.classList.add(st.dataset.answer===choice?'correct':'wrong');
+  };
+  fact.onclick=()=>choose(fact,'fact');
+  inf.onclick=()=>choose(inf,'inference');
+})
+document.querySelectorAll('.pollbtn').forEach(b=>b.onclick=()=>document.querySelector('#pollmsg').textContent=b.dataset.msg);
+show(0);
+</script></body></html>
